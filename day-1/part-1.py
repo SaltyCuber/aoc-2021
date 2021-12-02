@@ -1,0 +1,1 @@
+with open('d')as f:d=[int(i)for i in f.readlines()];print(len([1 for c,v in enumerate(d) if v>d[c-1]]))
